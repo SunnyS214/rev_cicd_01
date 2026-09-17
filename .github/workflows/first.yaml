@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
 jobs:
-  tests:
+  tests1:
     runs-on: ubuntu-latest
     steps:
       - name: code lao
