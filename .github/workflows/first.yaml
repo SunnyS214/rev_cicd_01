@@ -1,0 +1,16 @@
+name: Pipeline for revison server.js
+on:
+  push:
+    branches: [main]
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: code lao
+        uses: actions/checkout@v3
+      
+      - name: depencies add karo
+        run: npm i
+      
+    
+               
